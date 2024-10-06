@@ -2,7 +2,7 @@
 import {useEffect, useState} from "react"
 import Footer from "./components/Footer"
 import Main from "./components/Main"
-import Sidebar from "./components/Sidebar"
+import SideBar from "./components/SideBar"
 
 function App() {
 
@@ -58,7 +58,7 @@ function App() {
           <i className="fa-solid fa-gear"></i>
         </div>
       )}
-      { showModal && (<Sidebar data={data} handleToggleModal={handleToggleModal}/>)}
+      { showModal && (<SideBar data={data} handleToggleModal={handleToggleModal}/>)}
       { data && (<Footer data={data} handleToggleModal={handleToggleModal}/>)}
     </>
   )

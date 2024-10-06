@@ -1,4 +1,4 @@
-export default function Sidebar(props) {
+export default function SideBar(props) {
 
   // eslint-disable-next-line react/prop-types
   const { handleToggleModal, data } = props;
